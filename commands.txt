@@ -1,0 +1,12 @@
+------------
+rm -rf vendor
+composer install
+npm install
+updated .env file DB_DATABASE to org_app
+php artisan key:generate
+I ran:
+del C:\Users\jaxon\OneDrive\Desktop\Karuna\hr-app-main\public\storage
+php artisan storage:link
+npm run dev
+php artisan serve
+------------
